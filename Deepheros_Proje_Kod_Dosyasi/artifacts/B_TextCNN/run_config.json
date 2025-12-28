@@ -1,0 +1,24 @@
+{
+  "model_key": "B_TextCNN",
+  "seed": 42,
+  "hyperparameters": {
+    "embed_dim": 128,
+    "num_filters": 100,
+    "filter_sizes": [
+      3,
+      4,
+      5
+    ],
+    "dropout": 0.5,
+    "learning_rate": 0.001,
+    "num_epochs": 15,
+    "batch_size": 32
+  },
+  "vocab_size": 12483,
+  "num_classes": 8,
+  "checkpoint_path": "./artifacts\\B_TextCNN\\best_model.pt",
+  "library_versions": {
+    "torch": "2.9.1+cpu",
+    "numpy": "2.3.5"
+  }
+}

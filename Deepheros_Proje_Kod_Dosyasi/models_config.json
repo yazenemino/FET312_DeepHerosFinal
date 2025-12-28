@@ -1,0 +1,81 @@
+[
+  {
+    "person": "Person 1",
+    "model_id": 1,
+    "name": "DistilBERT-Base",
+    "model": "distilbert-base-uncased",
+    "description": "DistilBERT - VERY FAST small model (66M params)",
+    "learning_rate": 0.0001,
+    "num_epochs": 2,
+    "train_batch_size": 4,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.1
+  },
+  {
+    "person": "Person 1",
+    "model_id": 2,
+    "name": "BERT-Tiny",
+    "model": "prajjwal1/bert-tiny",
+    "description": "BERT Tiny - ULTRA FAST (4.4M params)",
+    "learning_rate": 0.0001,
+    "num_epochs": 2,
+    "train_batch_size": 8,
+    "lora_r": 4,
+    "lora_alpha": 8,
+    "lora_dropout": 0.1
+  },
+  {
+    "person": "Person 2",
+    "model_id": 3,
+    "name": "DistilBERT-LoRA-Low",
+    "model": "distilbert-base-uncased",
+    "description": "DistilBERT with low-rank LoRA",
+    "learning_rate": 0.0001,
+    "num_epochs": 2,
+    "train_batch_size": 4,
+    "lora_r": 4,
+    "lora_alpha": 8,
+    "lora_dropout": 0.05
+  },
+  {
+    "person": "Person 2",
+    "model_id": 4,
+    "name": "BERT-Mini",
+    "model": "prajjwal1/bert-mini",
+    "description": "BERT Mini - FAST (11M params)",
+    "learning_rate": 0.0001,
+    "num_epochs": 2,
+    "train_batch_size": 4,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.1
+  },
+  {
+    "person": "Person 3",
+    "model_id": 5,
+    "name": "RoBERTa-Base",
+    "model": "roberta-base",
+    "description": "RoBERTa Base - Different architecture",
+    "learning_rate": 0.0001,
+    "num_epochs": 2,
+    "train_batch_size": 4,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.1
+  },
+  {
+    "person": "Person 3",
+    "model_id": 6,
+    "name": "DistilBERT-HighLR",
+    "model": "distilbert-base-uncased",
+    "description": "DistilBERT with higher learning rate",
+    "learning_rate": 0.0002,
+    "num_epochs": 2,
+    "train_batch_size": 4,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.1
+  }
+]
+

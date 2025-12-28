@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "test_size": 0.15,
+  "val_size": 0.15,
+  "total_samples": 10189,
+  "train_samples": 7131,
+  "val_samples": 1529,
+  "test_samples": 1529,
+  "num_classes": 8
+}
